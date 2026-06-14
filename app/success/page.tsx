@@ -7,7 +7,7 @@ export default function SuccessPage({
 }) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-blue-50 flex items-center justify-center px-4">
-      <div className="max-w-md w-full bg-white rounded-2xl shadow-lg p-8 text-center">
+      <div className="max-w-md w-full bg-black rounded-2xl shadow-lg p-8 text-center">
         {/* Success Icon */}
         <div className="mb-6 flex justify-center">
           <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center">
@@ -39,7 +39,7 @@ export default function SuccessPage({
           <h3 className="font-semibold text-gray-900 mb-3">Next Steps:</h3>
           <ul className="space-y-2 text-sm text-gray-700">
             <li>✓ Check your email for confirmation</li>
-            <li>✓ Your subscription renews monthly</li>
+            <li>✓ Your subscription renews every monthly</li>
             <li>✓ Manage billing in your account settings</li>
           </ul>
         </div>
